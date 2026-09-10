@@ -43,11 +43,11 @@
 
     <!-- FORMULARIO -->
 
-    <form action="subir.php" method="POST">
+    <form action="subir.php" method="POST" enctype="multipart/form-data">
 
         <div class="mb-3">
             <label for="formFile" class="form-label">Seleccione el archivo</label>
-            <input class="form-control" type="file" id="formFile">
+            <input class="form-control" type="file" id="formFile" name="archivo">
         </div>
         <button type="submit" class="btn btn-primary">Subir archivo</button>
     </form>
