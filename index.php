@@ -32,15 +32,16 @@
 
 <body>
 
-
+    <h1>Grupo 3</h1>
+    <p>Integrantes: Alberto Mora Umaña, Alison S, Ruth Sarai, Jimena Mendoza, Dilanha Sotelo</p>
 
     <!-- FORMULARIO -->
 
-    <form action="subir.php" method="POST">
+    <form action="subir.php" method="POST" enctype="multipart/form-data">
 
         <div class="mb-3">
             <label for="formFile" class="form-label">Seleccione el archivo</label>
-            <input class="form-control" type="file" id="formFile">
+            <input class="form-control" type="file" id="formFile" name="archivo">
         </div>
         <button type="submit" class="btn btn-primary">Subir archivo</button>
     </form>
