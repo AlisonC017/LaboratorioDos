@@ -31,8 +31,15 @@
 
 
 <body>
-
-
+        <!--  Titulo grande / Inicio  -->
+            <div class="hero-grande">
+                <nav class="navbar navbar-expand">
+                </nav>
+                <div class="container hero-texto">
+                    <h1>GRUPO #3</h1>
+                    <h2>Jimena Mendoza, Dilanha Sotelo, Ruth Hernandez, Alison Cabrera, Alberto Mora</h2>
+                </div>
+            </div>
 
     <!-- FORMULARIO -->
 
