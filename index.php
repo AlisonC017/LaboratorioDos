@@ -31,16 +31,23 @@
 
 
 <body>
-
-
+        <!--  Titulo grande / Inicio  -->
+            <div class="hero-grande">
+                <nav class="navbar navbar-expand">
+                </nav>
+                <div class="container hero-texto">
+                    <h1>GRUPO #3</h1>
+                    <h2>Jimena Mendoza, Dilanha Sotelo, Ruth Hernandez, Alison Cabrera, Alberto Mora</h2>
+                </div>
+            </div>
 
     <!-- FORMULARIO -->
 
-    <form action="subir.php" method="POST">
+    <form action="subir.php" method="POST" enctype="multipart/form-data">
 
         <div class="mb-3">
             <label for="formFile" class="form-label">Seleccione el archivo</label>
-            <input class="form-control" type="file" id="formFile">
+            <input class="form-control" type="file" id="formFile" name="archivo">
         </div>
         <button type="submit" class="btn btn-primary">Subir archivo</button>
     </form>
