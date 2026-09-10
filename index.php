@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <?php include("parts/css.php"); ?>
 
     <style>
         body {
@@ -31,9 +31,21 @@
 
 
 <body>
+<<<<<<< HEAD
 
     <h1>Grupo 3</h1>
     <p>Integrantes: Alberto Mora Umaña, Alison S, Ruth Sarai, Jimena Mendoza, Dilanha Sotelo</p>
+=======
+        <!--  Titulo grande / Inicio  -->
+            <div class="hero-grande">
+                <nav class="navbar navbar-expand">
+                </nav>
+                <div class="container hero-texto">
+                    <h1>GRUPO #3</h1>
+                    <h2>Jimena Mendoza, Dilanha Sotelo, Ruth Hernandez, Alison Cabrera, Alberto Mora</h2>
+                </div>
+            </div>
+>>>>>>> ac0492d992a8c9ece7e660bcb23a041128b6eda0
 
     <!-- FORMULARIO -->
 
