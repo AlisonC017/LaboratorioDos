@@ -31,11 +31,7 @@
 
 
 <body>
-<<<<<<< HEAD
 
-    <h1>Grupo 3</h1>
-    <p>Integrantes: Alberto Mora Umaña, Alison S, Ruth Sarai, Jimena Mendoza, Dilanha Sotelo</p>
-=======
         <!--  Titulo grande / Inicio  -->
             <div class="hero-grande">
                 <nav class="navbar navbar-expand">
@@ -45,7 +41,7 @@
                     <h2>Jimena Mendoza, Dilanha Sotelo, Ruth Hernandez, Alison Cabrera, Alberto Mora</h2>
                 </div>
             </div>
->>>>>>> ac0492d992a8c9ece7e660bcb23a041128b6eda0
+
 
     <!-- FORMULARIO -->
 
